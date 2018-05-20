@@ -2,7 +2,6 @@
   "name": "s4kr4",
   "version": "1.0.0",
   "description": "s4kr4 cli",
-  "main": "bin/cli.js",
   "repository": "https://github.com/s4kr4/s4kr4",
   "author": "s4kr4",
   "license": "MIT",
@@ -30,6 +29,6 @@
   },
   "scripts": {
     "build": "webpack",
-    "test": "node dist/cli.js"
+    "test": "node bin/cli.js"
   }
 }
